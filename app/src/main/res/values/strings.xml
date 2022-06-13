@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">StuDu</string>
+    <string name="app_desc">Aplikasi Stunting Education</string>
+    <string name="app_version">Versi 1.0.0</string>
+    <string name="app_year">© 2022</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="tv_nama">Halo, Aji Nuansa</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_register_screen">RegisterScreen</string>
+    <string name="masuk">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="atau">Atau</string>
+    <string name="sign">Sign in with Google</string>
+    <string name="daftar">Belum punya akun?</string>
+    <string name="pernyataan">Berdasarkan hasil penghitungan anda berada dalam kategori:</string>
+    <string name="isi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_prediksi_screnn">PrediksiScrenn</string>
+    <string name="title_activity_hasil_normal">HasilNormalActivity</string>
+    <string name="normal">Tetap pantau tumbuh kembang-nya.</string>
+    <string name="ada_artikel">Adapun artikel yang bisa digunakan untuk\npenanganan awal dalam mencegah\ndan penanganan stunting yang telah disediakan:</string>
+    <string name="artikel_stunting">Adapun saran artikel yang bisa digunakan untuk penanganan awal dalam mencegah dan penanganan stunting yang telah disediakan:</string>
+    <string name="title_daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="sudah">Sudah punya akun?</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_artikel">Artikel</string>
+    <string name="title_hitung">Hitung</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="lihat_profil">Lihat Profil</string>
+    <string name="isi_artikel3">Berikut tips untuk mencegah anak stunting:\n\n1. Memenuhi kebutuhan gizi sejak hamil\n2. Beri ASI Eksklusif sampai bayi berusia 6 bulan\n3. Dampingi ASI Eksklusif dengan MPASI sehat\n4. Terus memantau tumbuh kembang anak\n5. Selalu jaga kebersihan lingkungan\n6. Konsultasikan kesehatan anak anda ke dokter spesialis anak</string>
+    <string name="isi_artikel2">Salah satu fokus pemerintah saat ini adalah pencegahan\nstunting.Upaya ini bertujuan agar anak-anak Indonesia\ndapat tumbuhdan berkembang secara optimal dan\nmaksimal, dengan disertai kemampuan emosional,\nsosial, dan fisik yang siap untuk belajar, serta mampu\nberinovasi dan berkompetisi di tingkat global.</string>
+    <string name="berdasarkan">Berdasarkan hasil penghitungan\nanak anda berada dalam kategori:</string>
+    <string name="result_stunting">Anak anda terindikasi stunting.\nDirekomendasikan untuk berkonsultasi\ndengan dokter anak atau ahli gizi.</string>
+    <string name="tentang_aplikasi">Studu adalah aplikasi mobile berbasis Android\nuntuk membantu menangani permasalahan\nstunting yang ada di Indonesia, dengan\nmendeteksi dan mengkategorikan keadaan\nbalita, serta memberikan edukasi kepada\nmasyarakat mengenai bahaya dan\npencegahan stunting.</string>
+    <string name="text_banner">Mari kenali pertumbuhan buah hati\ndengan mendeteksi tumbuh\nkembang-nya</string>
+    <string name="isi_artikel1">Stunting adalah masalah kurang gizi kronis yang disebabkan\noleh kurangnya asupan gizi dalam waktu yang cukup lama,\nsehingga mengakibatkan gangguan pertumbuhan\npada anak yakni tinggi badan anak lebih rendah atau\npendek (kerdil) dari standar usianya.</string>
+</resources>

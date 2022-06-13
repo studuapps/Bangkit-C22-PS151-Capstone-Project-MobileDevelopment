@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.home.HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/bg_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/tv_nama"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/iv_banner"
+        app:layout_constraintTop_toTopOf="@+id/iv_banner" />
+
+    <ImageView
+        android:id="@+id/iv_banner_baby"
+        android:layout_width="328dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/bg_banner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_banner" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/bayi"
+        app:layout_constraintEnd_toEndOf="@+id/iv_banner_baby"
+        app:layout_constraintTop_toTopOf="@+id/iv_banner_baby" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/text_banner"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/iv_banner_baby"
+        app:layout_constraintTop_toTopOf="@+id/iv_banner_baby" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/hitung"
+        app:layout_constraintStart_toStartOf="@+id/iv_banner_baby"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/tv_riwayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Riwayat Perhitungan"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_banner_baby" />
+
+    <ImageView
+        android:id="@+id/iv_selengkapnya_rp"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/selengkapnya"
+        app:layout_constraintStart_toEndOf="@+id/tv_riwayat"
+        app:layout_constraintTop_toBottomOf="@+id/iv_banner_baby" />
+
+    <ImageView
+        android:id="@+id/iv_none_result"
+        android:layout_width="320dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/none_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_riwayat" />
+
+    <TextView
+        android:id="@+id/tv_artikel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Artikel"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_none_result" />
+
+    <ImageView
+        android:id="@+id/iv_selengkapnya_artikel"
+        android:layout_width="101dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/selengkapnya"
+        app:layout_constraintStart_toEndOf="@+id/tv_artikel"
+        app:layout_constraintTop_toBottomOf="@+id/iv_none_result" />
+
+    <ImageView
+        android:id="@+id/iv_stunting1"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/stunting1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_artikel" />
+
+    <TextView
+        android:id="@+id/tv_stunting1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Mencegah Stunting Pada Anak"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_stunting1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_artikel" />
+
+    <TextView
+        android:id="@+id/tv_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="27 Juli 2021"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/iv_stunting1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stunting1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/stunting2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_stunting1" />
+
+    <TextView
+        android:id="@+id/tv_stunting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Masalah Stunting Pada Anak"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/iv_stunting1" />
+
+    <TextView
+        android:id="@+id/tv_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="15 Juli 2021"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stunting2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
